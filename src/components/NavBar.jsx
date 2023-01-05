@@ -15,7 +15,7 @@ const NavBar = () => {
                 <Navbar.Toggle/>
                 <Navbar.Collapse id="navbar">
                     <Nav className="navigation">
-                        <Nav.Link href="#home">About</Nav.Link>
+                        <Nav.Link href="#aboutMe">About</Nav.Link>
                         <Nav.Link href="#sectionExperience">Experience</Nav.Link>
                         <Nav.Link href="#home">Projects</Nav.Link>
                         <Nav.Link href="#home">Contact</Nav.Link>
