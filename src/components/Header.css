@@ -18,7 +18,6 @@ header {
 }
 
 /* Nav Bar */
-.navbarContainer {
-    display: flex;
-    justify-content: space-between;
+#navbar {
+    justify-content: end;
 }
