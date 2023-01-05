@@ -42,7 +42,8 @@ p {
 .experience {
     margin: auto;
     text-align: center;
-    background-color: #5BC0F8;
+    background-color: #0081C9;
+    color: rgba(0, 0, 0, 0.65);
     margin: 20px 0;
     padding: 20px;
 }
@@ -118,8 +119,15 @@ p {
     align-items: center;
     justify-content: space-between;
 }
+
 .technologyContainer  > p {
     font-size: 1vw;
+}
+
+.technologyTitles {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
 }
 
 .yearGraduated{
