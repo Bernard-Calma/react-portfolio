@@ -23,7 +23,9 @@
 .experience {
     margin: auto;
     text-align: center;
-    
+    background-color: #5BC0F8;
+    margin: 20px 0;
+    padding: 20px
 }
 
 .extraSmallLogo {
