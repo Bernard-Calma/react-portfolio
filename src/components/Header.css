@@ -1,6 +1,6 @@
 /* IMPORTS */
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Russo+One&family=Ubuntu&display=swap');
 
 /* Header Styles */
 header {
@@ -24,7 +24,6 @@ header {
 /* Nav Bar */
 #navbar {
     justify-content: end;
-    font-family: "Monsterrat", sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
 }
