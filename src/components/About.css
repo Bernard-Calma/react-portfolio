@@ -1,0 +1,13 @@
+/* IMPORTS */
+    /* FONT STYLES */
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap');
+
+
+.aboutMe {
+    padding: 60px 10px 20px;
+    background-color: #86E5FF;
+}
+
+h1 {
+    font-family: "Russo One", sans-serif;
+}
