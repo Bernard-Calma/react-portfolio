@@ -1,3 +1,22 @@
+/* IMPORTS */
+/* FONT STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap');
+
+h2 {
+    font-family: "Russo One";
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Space Mono";
+}
+
 .courseDescription {
     margin: auto;
     margin-top: 20px;
@@ -25,7 +44,7 @@
     text-align: center;
     background-color: #5BC0F8;
     margin: 20px 0;
-    padding: 20px
+    padding: 20px;
 }
 
 .extraSmallLogo {
