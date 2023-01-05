@@ -1,10 +1,12 @@
+import About from "../components/About"
 import Experience from "../components/Experience"
+import Headers from "../components/Header"
 
 const Main = () => {
     return (
         <main>
-            <h1>Hi! I'm Bernard Calma</h1>
-            <h3>I'm a Software Engineer</h3>
+            <Headers />
+            <About />
             <Experience />
         </main>
     )
