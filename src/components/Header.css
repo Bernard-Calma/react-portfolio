@@ -1,13 +1,12 @@
 /* Header Styles */
-.divHeaders {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+header {
+ height: 100px;
 }
 
 /* Navigation Styles */
 .ulNavigation {
     display: flex;
+    align-items: center;
 }
 
 /* navigation menus */
@@ -16,4 +15,10 @@
     display: flex;
     justify-content: space-between;
     margin: 0 20px 0 20px;
+}
+
+/* Nav Bar */
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
 }

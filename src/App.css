@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Main Styles */
+main {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
