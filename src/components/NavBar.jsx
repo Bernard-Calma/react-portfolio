@@ -1,6 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-import "./Header.css"
 const NavBar = () => {
     return (
         <Navbar bg="light" expand="md">
