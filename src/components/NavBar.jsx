@@ -1,11 +1,19 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
+import "./Header.css"
 const NavBar = () => {
     return (
-        <Navbar bg="light" expand="md" className="navbar">
+        <Navbar bg="light" expand="md">
             <Container>
-                <Navbar.Brand> Bernard Calma</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbar"/>
+                <Navbar.Brand>
+                    <img 
+                       src="/images/TitleLogo.png" 
+                       alt="Title Logo"
+                       width="100"
+                       className="logo"
+                    />
+                </Navbar.Brand>
+                <Navbar.Toggle/>
                 <Navbar.Collapse id="navbar">
                     <Nav className="navigation">
                         <Nav.Link href="#home">About</Nav.Link>
