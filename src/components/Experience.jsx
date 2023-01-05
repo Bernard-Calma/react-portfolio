@@ -1,3 +1,5 @@
+import "./Experience.css"
+
 const Experience = () => {
     return(
         <section class = "experience title" id = "sectionExperience">
@@ -7,7 +9,7 @@ const Experience = () => {
 
             <div class = "asu school">
                 <div class="schoolTitle">
-                    <a href="https://engineering.asu.edu/" target="_blank"><img class = "schoolLogo" src="./public/ASU.png" alt="asuLogo"/></a>
+                    <a href="https://engineering.asu.edu/" target="_blank"><img class = "schoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
                     <div class="schoolDescription">
                         <h3 class="schoolName"> Arizona State University</h3>
                         <h4>Software Engineering (BS)</h4>
@@ -38,7 +40,7 @@ const Experience = () => {
             <hr/>
             <div class = "generalAssembly school">
                 <div class="schoolTitle">
-                    <a href="https://generalassemb.ly/" target="_blank"><img class = "gaSchoolLogo" src="./public/GA.png" alt="gaLogo"/></a>
+                    <a href="https://generalassemb.ly/" target="_blank"><img class = "gaSchoolLogo" src="images/education/GA.png" alt="gaLogo"/></a>
                     <div class="gaSchoolDescription">
                         <h3 class="schoolName"> General Assembly</h3>
                         <h4>Software Engineering Immersive</h4>
@@ -59,7 +61,7 @@ const Experience = () => {
             <hr/>
             <div class = "sti school">
                 <div class="schoolTitle">
-                    <a href="https://www.sti.edu/" target="_blank"><img class = "stiSchoolLogo" src="./public/STI.png" alt="stiLogo"/></a>
+                    <a href="https://www.sti.edu/" target="_blank"><img class = "stiSchoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
                     <div class="schoolDescription">
                         <h3 class="schoolName">STI College Bacoor</h3>
                         <h4>Computer Technology (AS)</h4>

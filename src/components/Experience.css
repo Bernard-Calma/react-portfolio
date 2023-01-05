@@ -1,0 +1,106 @@
+.courseDescription {
+    margin: auto;
+    margin-top: 20px;
+    font-size: large;
+    text-align: left;
+}
+
+.education div h5, h4, p{
+    margin: 0;
+}
+
+.educationProjects{
+    margin: 20px auto 0;
+    padding: 0;
+    text-align: left;
+}
+
+.educationProjects > li {
+    margin: 0;
+    text-align: left;
+}
+
+.experience {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.extraSmallLogo {
+    width: 100px;
+}
+
+.gaSchoolDescription {
+    position: relative;
+    text-align: left;
+    margin-right: 50%;
+    right: 0px;
+    width: 70%;
+}
+
+.gaSchoolLogo {
+    width: 30%;
+    float: right;
+}
+
+.github, .download, .logo {
+    width: 50px;
+}
+
+.schoolDescription {
+    position: relative;
+    text-align: left;
+    margin-left: 50%;
+    right: 0px;
+    width: 60%;
+}
+
+.schoolLogo {
+    width: 50%;
+    float: left;
+}
+
+.schoolName {
+    margin: auto;
+    left: 40%;
+    top: 5%;
+}
+
+.schoolTitle {
+    width: 80%;
+    margin: auto;
+}
+
+.smallLogo {
+    width: 70px;
+}
+
+.sti, .asu{
+    margin-top: 50px;
+}
+
+.stiSchoolLogo {
+    width: 45%;
+    float: left;
+}
+
+.technologies {
+    display: flex;
+    justify-content: start;
+}
+
+.technologyContainer {
+    margin-top: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.technologyContainer  > p {
+    font-size: 1vw;
+}
+
+.yearGraduated{
+    font-size: medium;
+}
