@@ -7,9 +7,9 @@ const Contacts = () => {
             <div>
                 <h2>Social Media</h2>
                 <ul class="socialMedia">
-                    <li class = "socialMediaItem"><a href="https://www.linkedin.com/in/bernard-calma/" target="_blank">LinkedIn</a></li>
-                    <li class = "socialMediaItem"><a href="https://github.com/Bernard-Calma" target="_blank">GitHub</a></li>
-                    <li class = "socialMediaItem"><a href="https://twitter.com/ryznrd" target="_blank">Twitter</a></li>
+                    <li class = "socialMediaItem"><a href="https://www.linkedin.com/in/bernard-calma/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class = "socialMediaItem"><a href="https://github.com/Bernard-Calma" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li class = "socialMediaItem"><a href="https://twitter.com/ryznrd" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
                 <h2>Contact Information</h2>
                 <ul class="contactInformation">
