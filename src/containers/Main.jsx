@@ -1,4 +1,5 @@
 import About from "../components/About"
+import Contacts from "../components/Contacts"
 import Experience from "../components/Experience"
 import Headers from "../components/Header"
 
@@ -8,6 +9,7 @@ const Main = () => {
             <Headers />
             <About />
             <Experience />
+            <Contacts />
         </main>
     )
 }
