@@ -4,13 +4,21 @@
 
 
 .aboutMe {
-    padding: 60px 10px 20px;
+    padding: 100px 10px 50px;
     background-color: #2C74B3;
     color: #0A2647;
 }
 
-h1 {
+.aboutMeName {
     font-family: "Russo One", sans-serif;
+    text-align: Center;
+    font-size: 6rem;
+}
+
+.aboutMeOccupation {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 4rem;
 }
 
 .introduction {
