@@ -1,0 +1,38 @@
+/* Contacts */
+a {
+    text-decoration: none;
+    color: #0A2647;
+    font-size: 2.5rem;
+}
+
+a:hover {
+    color: white;
+    font-size: larger;
+}
+
+li {
+    list-style: none;
+    color: #0A2647;
+    font-size: 2rem;
+}
+
+.contacts {
+    background-color: #2C74B3;
+    color: #0A2647;
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaItem {
+    margin: 3% 5%;
+}
+
+/* .social-media, .social-media li, .contact-information li {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+} */
