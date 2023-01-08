@@ -22,6 +22,11 @@ li {
     padding: 50px;
 }
 
+.mailTo {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+}
+
 .socialMedia {
     display: flex;
     justify-content: center;

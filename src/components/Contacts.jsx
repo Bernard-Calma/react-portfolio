@@ -14,7 +14,7 @@ const Contacts = () => {
                 <h2>Contact Information</h2>
                 <ul class="contactInformation">
                     <li>Location: Lancaster, CA</li>
-                    <li>Email: <a href="mailto:nard.calma@gmail.com">nard.calma@gmail.com</a></li>
+                    <li>Email: <a class="mailTo" href="mailto:nard.calma@gmail.com">nard.calma@gmail.com</a></li>
                 </ul>
             </div>
         </section>
