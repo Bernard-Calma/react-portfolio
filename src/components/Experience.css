@@ -19,6 +19,26 @@
     font-size: 3rem;
 }
 
-.schoolLogo, .logo {
+.school {
+    margin: 3%;
+}
+
+.logo {
     width: 10%;
+}
+
+/* SCHOOL SECTION */
+/* ASU & STI */
+.schoolLogo{ 
+    float: left;
+    width: 50%;
+}
+
+
+/* MEDIA LOGO */
+@media only screen and (max-width: 600px) {
+    .schoolLogo {
+        width: 100%;
+        margin: 15% 0;
+    }
 }

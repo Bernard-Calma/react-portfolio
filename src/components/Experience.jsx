@@ -36,8 +36,8 @@ const Experience = () => {
                     
                 </div>
             </div>
-
             <hr/>
+
             <div className = "generalAssembly school">
                 <div className="schoolTitle">
                     <a href="https://generalassemb.ly/" target="_blank"><img className = "gaSchoolLogo" src="images/education/GA.png" alt="gaLogo"/></a>
@@ -59,9 +59,10 @@ const Experience = () => {
                 </div>
             </div>
             <hr/>
+
             <div className = "sti school">
                 <div className="gaSchoolTitle">
-                    <a href="https://www.sti.edu/" target="_blank"><img className = "stiSchoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
+                    <a href="https://www.sti.edu/" target="_blank"><img className = "schoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName">STI College Bacoor</h3>
                         <h4>Computer Technology (AS)</h4>
@@ -79,6 +80,7 @@ const Experience = () => {
                     
                 </div>
             </div> 
+            <hr />
         </div>
     </section>
     )
