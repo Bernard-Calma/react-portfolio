@@ -60,7 +60,7 @@ const Experience = () => {
             </div>
             <hr/>
             <div className = "sti school">
-                <div className="schoolTitle">
+                <div className="gaSchoolTitle">
                     <a href="https://www.sti.edu/" target="_blank"><img className = "stiSchoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName">STI College Bacoor</h3>

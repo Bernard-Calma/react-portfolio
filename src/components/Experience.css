@@ -14,6 +14,10 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    font-weight: bold;
+}
+
 p {
     font-family: "Space Mono";
 }
@@ -38,6 +42,9 @@ p {
 .educationProjects > li {
     margin: 0;
     text-align: left;
+    color: #2C74B3;
+    list-style-type: circle;
+    font-family: "Space Mono";
 }
 
 .experience {
@@ -52,17 +59,9 @@ p {
     width: 100px;
 }
 
-.gaSchoolDescription {
-    position: relative;
-    text-align: left;
-    margin-right: 50%;
-    right: 0px;
-    width: 70%;
-}
-
-.gaSchoolLogo {
-    width: 30%;
-    float: right;
+.gaSchoolTitle {
+    margin: auto;
+    text-align: right;
 }
 
 .github, .download, .logo {
@@ -83,14 +82,14 @@ p {
 }
 
 .schoolName {
-    margin: auto;
+    margin: 20px auto;
     left: 40%;
     top: 5%;
 }
 
 .schoolTitle {
-    width: 80%;
-    margin: auto;
+    margin: 0;
+    text-align: end;
 }
 
 .smallLogo {
@@ -132,4 +131,25 @@ p {
 
 .yearGraduated{
     font-size: medium;
+}
+
+/* SCHOOL INFORMATION */
+
+/* ASU */
+
+/* GENERAL ASSEMBLY */
+.gaSchoolDescription {
+    width: 70%;
+    padding: 3% 2%;
+    text-align: left;
+}
+
+.gaSchoolLogo {
+    width: 25%;
+    float: right;
+    padding-top: 10px
+}
+
+.generalAssembly {
+    left: 0;
 }
