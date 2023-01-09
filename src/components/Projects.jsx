@@ -1,8 +1,10 @@
+import "./Projects.css"
+
 const Projects = () => {
     return(
         <section class = "work title" id="sectionWork">
         <div class = "work-project">
-            <h1> Projects </h1>
+            <h1 className="sectionTitle"> Projects </h1>
             <div class = "tamagotchi project" hidden>
                 <h3>The Tamagotchi Project <a href="https://github.com/Bernard-Calma/tamagotchi-project" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
                 <div class = "project-container">
@@ -72,7 +74,7 @@ const Projects = () => {
             </div>
 
             <div class = "streamin">
-                <h3>Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
+                <h3 className="projectTitle">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
                 <div class = "project-container">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>

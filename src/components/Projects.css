@@ -1,3 +1,17 @@
-.sectionProject {
-    background-color: black;
+#sectionWork {
+    background-color: #0A2647;
+    color: #2C74B3;
+    text-align: center;
+}
+
+.sectionTitle{
+    font-family: "Russo One", sans-serif;
+    font-size: 4rem;
+    padding: 10px;
+}
+
+/* PROJECT DIV */
+.projectTitle {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
 }
