@@ -1,6 +1,6 @@
 /* IMPORTS */
 /* FONT STYLES */
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap'); */
 
 #sectionExperience {
     text-align: center;
@@ -21,10 +21,7 @@
 
 .school {
     margin: 3%;
-}
-
-.logo {
-    width: 10%;
+    text-align: right;
 }
 
 /* SCHOOL SECTION */
@@ -34,11 +31,69 @@
     width: 50%;
 }
 
+.schoolName {
+    font-family: "Russo One", sans-serif;
+    font-size: 3rem;
+}
+
+.course {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.schoolDescription {
+    font-family: "Space Mono", sans-serif;
+    font-size: 1rem;
+    padding: 0 3%;
+}
+
+.technologiesTitle {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.technologyContainer {
+    margin: 0 20px;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.dataStructureLogo {
+    width: 100%;
+}
+
+.technologyTitles {
+    padding: 2% 3%;
+}
+
 
 /* MEDIA LOGO */
 @media only screen and (max-width: 600px) {
     .schoolLogo {
         width: 100%;
         margin: 15% 0;
+    }
+
+    .school {
+        text-align: center;
+    }
+
+    .technologies {
+        display: block;
+    }
+
+    .dataStructureLogo {
+        width: 40%;
     }
 }
