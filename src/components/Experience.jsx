@@ -38,18 +38,18 @@ const Experience = () => {
             <div className = "generalAssembly school">
                 <div className="schoolTitle">
                     <a href="https://generalassemb.ly/" target="_blank"><img className = "gaSchoolLogo" src="images/education/GA.png" alt="gaLogo"/></a>
-                    <div className="gaSchoolDescription">
-                        <h3 className="schoolName"> General Assembly</h3>
-                        <h4 className="course">Software Engineering Immersive</h4>
+                    <div className="schoolDescription">
+                        <h3 className="schoolName gaSchoolName"> General Assembly </h3>
+                        <h4 className="course">Software Engineering Immersive (Certificate)</h4>
                         <p className = "yearGraduated">(Graduated: 2022)</p>
                         <p className = "courseDescription">- Software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developing a portfolio of individual and group projects.</p>
                         <div className = 'educationProjects'>
                             <h4 className="course">Projects</h4>
                             <ul className="educationProjects">
-                                <li>Streamin (Social Media Platform like)- React, Mongodb, Express, NodeJS, HTML, CSS, Javascript</li>
-                                <li>Spentrace (Butgeting App) - EJS, MongoDB, Express, NodeJS, HTML, CSS, Javascript</li>
-                                <li>Floating Shoe Game - JavaScript, HTML Canvas, CSS</li>
-                                <li>Tamagotchi Game - JavaScript, HTML, CSS</li>
+                                <li className="educationProjects generalAssembly">Streamin (Social Media Platform like)- React, Mongodb, Express, NodeJS, HTML, CSS, Javascript</li>
+                                <li className="educationProjects generalAssembly">Spentrace (Butgeting App) - EJS, MongoDB, Express, NodeJS, HTML, CSS, Javascript</li>
+                                <li className="educationProjects generalAssembly">Floating Shoe Game - JavaScript, HTML Canvas, CSS</li>
+                                <li className="educationProjects generalAssembly">Tamagotchi Game - JavaScript, HTML, CSS</li>
                             </ul>
                         </div>
                     </div> 
@@ -67,9 +67,9 @@ const Experience = () => {
                         <div className = 'educationProjects'>
                             <h4 className="course">Projects</h4>
                             <ul className="educationProjects">
-                                <li>Social Media website - Java, NetBeans</li>
-                                <li>Hotel Room and Reservation System - VB.net, Microsoft Access</li>
-                                <li>Powering a Radio using a Solar Panel - Arduino</li>
+                                <li className="educationProjects">Social Media website - Java, NetBeans</li>
+                                <li className="educationProjects">Hotel Room and Reservation System - VB.net, Microsoft Access</li>
+                                <li className="educationProjects">Powering a Radio using a Solar Panel - Arduino</li>
                             </ul>
                         </div>
                     </div>

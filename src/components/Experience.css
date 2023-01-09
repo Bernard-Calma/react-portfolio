@@ -2,6 +2,15 @@
 /* FONT STYLES */
 /* @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap'); */
 
+hr {
+    margin: 0;
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+
 #sectionExperience {
     text-align: center;
     background-color: #0A2647;
@@ -24,16 +33,22 @@
     text-align: right;
 }
 
+.yearGraduated {
+    font-weight: bold;
+}
+
 /* SCHOOL SECTION */
 /* ASU & STI */
 .schoolLogo{ 
     float: left;
     width: 50%;
+    padding: 10px;
 }
 
 .schoolName {
     font-family: "Russo One", sans-serif;
     font-size: 3rem;
+    text-align: right;
 }
 
 .course {
@@ -66,7 +81,6 @@
 .logo {
     width: 30%;
     height: auto;
-    margin: 20px 0;
 }
 
 .dataStructureLogo {
@@ -77,12 +91,36 @@
     padding: 2% 3%;
 }
 
+/* GENERAL ASSEMBLY AND STI */
+.educationProjects {
+    color: #2C74B3;
+    padding-left: 0;
+}
+
+/* GENERAL ASSEMBLY */
+.gaSchoolLogo {
+    float: right;
+    padding: 10px;
+}
+
+.gaSchoolName {
+    text-align: left;
+}
+
+.generalAssembly {
+    text-align: left;
+}
+
 
 /* MEDIA LOGO */
 @media only screen and (max-width: 600px) {
-    .schoolLogo {
+    .schoolLogo, .gaSchoolLogo {
         width: 100%;
         margin: 15% 0;
+    }
+
+    .schoolName {
+        text-align: center;
     }
 
     .school {
@@ -95,5 +133,9 @@
 
     .dataStructureLogo {
         width: 40%;
+    }
+
+    .experience {
+        padding-top: 30px;
     }
 }
