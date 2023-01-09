@@ -80,7 +80,7 @@ const Projects = () => {
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
                     <div class = "project-image">
-                        <a href="https://stream-in.herokuapp.com/" target="_blank"><img src="./public/Streamin.png" alt="streamin" id="streamin" class="projectImage"/></a>
+                        <a href="https://stream-in.herokuapp.com/" target="_blank"><img src="images/projects/Streamin.png" alt="streamin" id="streamin" class="projectImage"/></a>
                     </div>      
                     <div class = "project-button right" onclick="openProjectsRight()">
                         <img src="./public/right-button.png" alt="right-button" id="right-button"/>
