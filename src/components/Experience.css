@@ -15,6 +15,7 @@ hr {
     text-align: center;
     background-color: #0A2647;
     color: #2C74B3;
+    padding-top: 5%;
 }
 
 .experienceTitle {
@@ -135,7 +136,7 @@ hr {
         width: 40%;
     }
 
-    .experience {
-        padding-top: 30px;
+    #sectionExperience {
+        padding-top: 20%;
     }
 }
