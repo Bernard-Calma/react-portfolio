@@ -11,7 +11,11 @@
 }
 
 /* PROJECT DIV */
-.projectTitle {
+.projectName {
     font-family: "Ubuntu", sans-serif;
     font-size: 3rem;
+}
+
+.github {
+    color: #2C74B3;
 }

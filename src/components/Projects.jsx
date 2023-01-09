@@ -74,7 +74,7 @@ const Projects = () => {
             </div>
 
             <div class = "streamin">
-                <h3 className="projectTitle">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
+                <h3 className="projectName">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i class="fa-brands fa-github github"></i></a></h3>
                 <div class = "project-container">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
