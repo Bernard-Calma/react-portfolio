@@ -7,7 +7,7 @@ const Projects = () => {
             <h1 className="sectionTitle"> Projects </h1>
             <div class = "tamagotchi project" hidden>
                 <h3>The Tamagotchi Project <a href="https://github.com/Bernard-Calma/tamagotchi-project" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
-                <div class = "project-container">
+                <div class = "projectContainer">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
@@ -28,7 +28,7 @@ const Projects = () => {
 
             <div class = "floating-shoe project" hidden>
                 <h3>Floating Shoe <a href="https://github.com/Bernard-Calma/project-1" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
-                <div class = "project-container">
+                <div class = "projectContainer">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
@@ -50,7 +50,7 @@ const Projects = () => {
 
             <div class = "spentrace" hidden>
                 <h3>Spentrace <a href="https://github.com/Bernard-Calma/Spentrace" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
-                <div class = "project-container">
+                <div class = "projectContainer">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
@@ -75,7 +75,7 @@ const Projects = () => {
 
             <div class = "streamin">
                 <h3 className="projectName">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i class="fa-brands fa-github github"></i></a></h3>
-                <div class = "project-container">
+                <div class = "projectContainer">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>

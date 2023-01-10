@@ -19,3 +19,13 @@
 .github {
     color: #2C74B3;
 }
+
+.projectContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.projectImage {
+    width: 90%;
+}
