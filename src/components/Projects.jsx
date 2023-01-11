@@ -4,7 +4,7 @@ import WebsiteProjects from "../projects/WebsiteProjects"
 const Projects = () => {
     return(
         <section class = "work title" id="sectionWork">
-        <div class = "work-project">
+        {/* <div class = "work-project">
             <h1 className="sectionTitle"> Projects </h1>
             <div class = "tamagotchi project" hidden>
                 <h3>The Tamagotchi Project <a href="https://github.com/Bernard-Calma/tamagotchi-project" target="_blank"><img class = "github" src="./public/GitHub.png" alt="githubLogo" /></a></h3>
@@ -98,7 +98,7 @@ const Projects = () => {
                     <li>NodeJS</li>  
                 </ul>
             </div>
-        </div>
+        </div> */}
 
         <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -124,34 +124,33 @@ const Projects = () => {
     ></button>
   </div>
   <div class="carousel-inner relative w-full overflow-hidden">
-    {
-      WebsiteProjects.map((project, index) => 
-        <div class="projectContainer carousel-item active relative float-left w-full" key={index}>
-          <h5 class="projectName text-xl">{project.name} <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i class="fa-brands fa-github github"></i></a></h5>
-          <img class="projectImage block w-full" src={project.screenshot} alt={project.name + " screenshot"}/>
-          <p class="projectSummary">{project.summary}</p>
-        </div>)
-    }    
-    {/* <div class="carousel-item active relative float-left w-full">
+      {/* TO DO: .map doesn't work research this on how to do iterate array */}
+    <div class="carousel-item active relative float-left w-full">
       <img
-        src="images/projects/Streamin.png"
+        src={WebsiteProjects[0].screenshot}
         class="block w-full"
         alt="Streamin Screenshot"
       />
       <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5 class="text-xl">{WebsiteProjects[0].name}</h5>
+        <p>{WebsiteProjects[0].summary}</p>
+        <ul>Skills:
+          {WebsiteProjects[0].skills.map(skill => <li>{skill}</li>)}
+        </ul>
       </div>
     </div>
     <div class="carousel-item relative float-left w-full">
       <img
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+        src={WebsiteProjects[1].screenshot}
         class="block w-full"
-        alt="..."
+        alt="Streamin Screenshot"
       />
       <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5 class="text-xl">{WebsiteProjects[1].name}</h5>
+        <p>{WebsiteProjects[1].summary}</p>
+        <ul>Skills:
+          {WebsiteProjects[1].skills.map(skill => <li>{skill}</li>)}
+        </ul>
       </div>
     </div>
     <div class="carousel-item relative float-left w-full">
@@ -164,7 +163,7 @@ const Projects = () => {
         <h5 class="text-xl">Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
-    </div> */}
+    </div>
   </div>
   <button
     class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
