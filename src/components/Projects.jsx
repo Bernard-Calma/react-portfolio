@@ -1,4 +1,5 @@
 import "./Projects.css"
+import WebsiteProjects from "../projects/WebsiteProjects"
 
 const Projects = () => {
     return(
@@ -123,11 +124,19 @@ const Projects = () => {
     ></button>
   </div>
   <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item active relative float-left w-full">
+    {
+      WebsiteProjects.map((project, index) => 
+        <div class="projectContainer carousel-item active relative float-left w-full" key={index}>
+          <h5 class="projectName text-xl">{project.name} <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i class="fa-brands fa-github github"></i></a></h5>
+          <img class="projectImage block w-full" src={project.screenshot} alt={project.name + " screenshot"}/>
+          <p class="projectSummary">{project.summary}</p>
+        </div>)
+    }    
+    {/* <div class="carousel-item active relative float-left w-full">
       <img
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+        src="images/projects/Streamin.png"
         class="block w-full"
-        alt="..."
+        alt="Streamin Screenshot"
       />
       <div class="carousel-caption hidden md:block absolute text-center">
         <h5 class="text-xl">First slide label</h5>
@@ -155,7 +164,7 @@ const Projects = () => {
         <h5 class="text-xl">Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
-    </div>
+    </div> */}
   </div>
   <button
     class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"

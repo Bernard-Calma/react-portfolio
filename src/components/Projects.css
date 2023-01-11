@@ -13,7 +13,8 @@
 /* PROJECT DIV */
 .projectName {
     font-family: "Ubuntu", sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
+    margin-bottom: 50px;
 }
 
 .github {
@@ -26,6 +27,13 @@
     padding: 20px;
 }
 
-.projectImage {
-    width: 90%;
+/* PROJECT CAROUSEL */
+.projectSummary {
+    position: relative;
+    margin: 20px auto;
+    left: 0;
+    font-family: "Space Mono", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    padding: 2% 3%;
 }
