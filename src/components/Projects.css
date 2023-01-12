@@ -5,19 +5,7 @@
     padding-top: 2%;
 }
 
-.sectionTitle{
-    font-family: "Russo One", sans-serif;
-    font-size: 4rem;
-    padding: 10px;
-}
-
 /* PROJECT CAROUSEL */
-.projectContainer {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
 .projectName {
     font-family: "Ubuntu", sans-serif;
     font-size: 5rem;
@@ -28,7 +16,7 @@
 }
 
 .projectImage {
-    padding: 10% 5% 40%;
+    padding: 10% 5% 25%;
 }
 
 .projectSummary {
@@ -42,7 +30,7 @@
 
 .projectDescription {
     position: absolute;
-    padding: 55% 5% 0;
+    padding: 60% 5% 0;
     font-size: 1.5rem;
 }
 
