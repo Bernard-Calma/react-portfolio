@@ -11,6 +11,20 @@ const WebsiteProjects = [{
     summary: "This app can be used for simple budgeting tool, you can enter your earnings and expenses or expected cash flow everyday and will give you your how much you owe, your available spending and how much you'll need until the next expense.",
     skills: ["HTML", "CSS", "JavaScript", "React", "MongoDB", "Express", "NodeJS"],
     screenshot: "images/projects/Spentrace.png"
+},
+{
+    name: "Floating Shoe",
+    websiteLink: "https://bernard-calma.github.io/project-1/",
+    summary: "Floating Shoe is a game where you as a player will be a flying shoe and you need to avoid those feet that are trying to get into you as you move forward.",
+    skills: ["HTML", "CSS", "JavaScript", "HTML Canvas"],
+    screenshot: "images/projects/FloatingShoe.png"
+},
+{
+    name: "Tamagotchi",
+    websiteLink: "https://bernard-calma.github.io/tamagotchi-project/",
+    summary: "Based on a 90's game called Tamagochi.",
+    skills: ["HTML", "CSS", "JavaScript"],
+    screenshot: "images/projects/Tamagotchi.png"
 }]
 
 console.log(WebsiteProjects)
