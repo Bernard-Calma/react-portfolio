@@ -22,7 +22,7 @@ const WebsiteProjects = [{
 {
     name: "Tamagotchi",
     websiteLink: "https://bernard-calma.github.io/tamagotchi-project/",
-    summary: "Based on a 90's game called Tamagochi.",
+    summary: "Based on a 90's game called Tamagochi. Take care of your pet, feed, play with it.",
     skills: ["HTML", "CSS", "JavaScript"],
     screenshot: "images/projects/Tamagotchi.png"
 }]

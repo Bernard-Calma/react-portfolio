@@ -116,13 +116,20 @@ const Projects = () => {
       data-bs-slide-to="1"
       aria-label="Slide 2"
     ></button>
-    {/* <button
+    <button
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="2"
       aria-label="Slide 3"
-    ></button> */}
+    ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="3"
+      aria-label="Slide 4"
+    ></button>
   </div>
+
   <div className="carousel-inner relative w-full overflow-hidden">
       {/* TO DO: .map doesn't work research this on how to do iterate array */}
     <div className="carousel-item active relative float-left w-full">
@@ -145,7 +152,8 @@ const Projects = () => {
         </div>
       </div>
     </div>
-    <div className="carousel-item relative float-left w-full">
+
+    {/* <div className="carousel-item relative float-left w-full">
       <img
         src={WebsiteProjects[1].screenshot}
         className="projectImage block w-full"
@@ -160,9 +168,30 @@ const Projects = () => {
             {WebsiteProjects[1].skills.map(skill => <li className="projectSkills">{skill}</li>)}
           </ul>
         </div>
-
       </div>
-    </div>
+    </div> */}
+    <>
+    {WebsiteProjects.slice(1).map(project => <>
+        <div className="carousel-item relative float-left w-full">
+        <img
+          src={project.screenshot}
+          className="projectImage block w-full"
+          alt="Streamin Screenshot"
+        />
+        <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
+          <h5 className=" projectName text-xl">{project.name}</h5>
+          <div className="projectDescription">
+            <p>{project.summary}</p>
+            Skills:
+            <ul class="skillsList">
+              {project.skills.map(skill => <li className="projectSkills">{skill}</li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+          </>)}
+    </>
+    
     {/* <div className="carousel-item relative float-left w-full">
       <img
         src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
