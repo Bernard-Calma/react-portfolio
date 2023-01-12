@@ -2,7 +2,7 @@
     background-color: #0A2647;
     color: #2C74B3;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .sectionTitle{
@@ -11,19 +11,26 @@
     padding: 10px;
 }
 
-/* PROJECT DIV */
-
-.github {
-    color: #2C74B3;
-}
-
+/* PROJECT CAROUSEL */
 .projectContainer {
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-/* PROJECT CAROUSEL */
+.projectName {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 5rem;
+}
+
+.github {
+    color: #2C74B3;
+}
+
+.projectImage {
+    padding: 10% 5% 40%;
+}
+
 .projectSummary {
     color: #2C74B3;
     font-family: "Space Mono", sans-serif;
@@ -33,18 +40,9 @@
     left: 0;
 }
 
-.projectName {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 5rem;
-}
-
-.projectImage {
-    padding: 5% 5% 50%;
-}
-
 .projectDescription {
     position: absolute;
-    padding: 60% 5% 0;
+    padding: 55% 5% 0;
     font-size: 1.5rem;
 }
 
@@ -54,3 +52,4 @@
     margin: 0 15px;
     text-decoration:underline;
 }
+
