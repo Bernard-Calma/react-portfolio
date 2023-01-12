@@ -2,6 +2,7 @@
     background-color: #0A2647;
     color: #2C74B3;
     text-align: center;
+    padding-top: 5%;
 }
 
 .sectionTitle{
@@ -11,11 +12,6 @@
 }
 
 /* PROJECT DIV */
-.projectName {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 5rem;
-    margin-bottom: 50px;
-}
 
 .github {
     color: #2C74B3;
@@ -29,11 +25,32 @@
 
 /* PROJECT CAROUSEL */
 .projectSummary {
-    position: relative;
-    margin: 20px auto;
-    left: 0;
+    color: #2C74B3;
     font-family: "Space Mono", sans-serif;
     font-size: 2rem;
-    text-align: left;
-    padding: 2% 3%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.projectName {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 5rem;
+}
+
+.projectImage {
+    padding: 5% 5% 50%;
+}
+
+.projectDescription {
+    position: absolute;
+    padding: 60% 5% 0;
+    font-size: 1.5rem;
+}
+
+.projectSkills {
+    color: #2C74B3;
+    display: inline;
+    margin: 0 15px;
+    text-decoration:underline;
 }

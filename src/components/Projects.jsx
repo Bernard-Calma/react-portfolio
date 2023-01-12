@@ -13,7 +13,7 @@ const Projects = () => {
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
                     <div class = "project-image">
-                        <a href="https://bernard-calma.github.io/tamagotchi-project/" target="_blank" ><img src="./public/tamagotchi.png" alt="tamagotchi" id="imgTamagotchi" class="projectImage"/></a>
+                        <a href="https://bernard-calma.github.io/tamagotchi-project/" target="_blank" ><img src="./public/tamagotchi.png" alt="tamagotchi" id="imgTamagotchi" className="projectImage"/></a>
                     </div>      
                     <div class = "project-button right" onclick="openProjectsRight()"> 
                         <img src="./public/right-button.png" alt="right-button" id="right-button"/>
@@ -34,7 +34,7 @@ const Projects = () => {
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
                     <div class = "project-image">
-                        <a href="https://bernard-calma.github.io/project-1/" target="_blank"><img src="./public/floating-shoe.png" alt="floating-shoe" id="floating-shoe" class="projectImage"/></a>
+                        <a href="https://bernard-calma.github.io/project-1/" target="_blank"><img src="./public/floating-shoe.png" alt="floating-shoe" id="floating-shoe" className="projectImage"/></a>
                     </div>      
                     <div class = "project-button right" onclick="openProjectsRight()">
                         <img src="./public/right-button.png" alt="right-button" id="right-button"/>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
                     <div class = "project-image">
-                        <a href="https://spentrace.herokuapp.com/" target="_blank"><img src="./public/Spentrace.png" alt="spentrace" id="spentrace" class="projectImage"/></a>
+                        <a href="https://spentrace.herokuapp.com/" target="_blank"><img src="./public/Spentrace.png" alt="spentrace" id="spentrace" className="projectImage"/></a>
                     </div>      
                     <div class = "project-button right" onclick="openProjectsRight()">
                         <img src="./public/right-button.png" alt="right-button" id="right-button"/>
@@ -75,13 +75,13 @@ const Projects = () => {
             </div>
 
             <div class = "streamin">
-                <h3 className="projectName">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i class="fa-brands fa-github github"></i></a></h3>
+                <h3 className="projectName">Streamin <a href="https://github.com/Bernard-Calma/streamin-frontend" target="_blank"><i className="fa-brands fa-github github"></i></a></h3>
                 <div class = "projectContainer">
                     <div class = "project-button left" onclick="openProjectsLeft()">
                         <img src="./public/left-button.png" alt="left-button" id="left-button"/>
                     </div>
                     <div class = "project-image">
-                        <a href="https://stream-in.herokuapp.com/" target="_blank"><img src="images/projects/Streamin.png" alt="streamin" id="streamin" class="projectImage"/></a>
+                        <a href="https://stream-in.herokuapp.com/" target="_blank"><img src="images/projects/Streamin.png" alt="streamin" id="streamin" className="projectImage"/></a>
                     </div>      
                     <div class = "project-button right" onclick="openProjectsRight()">
                         <img src="./public/right-button.png" alt="right-button" id="right-button"/>
@@ -100,13 +100,13 @@ const Projects = () => {
             </div>
         </div> */}
 
-        <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+        <div id="carouselExampleCaptions" className="carousel slide relative" >
+  <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="0"
-      class="active"
+      className="active"
       aria-current="true"
       aria-label="Slide 1"
     ></button>
@@ -116,72 +116,82 @@ const Projects = () => {
       data-bs-slide-to="1"
       aria-label="Slide 2"
     ></button>
-    <button
+    {/* <button
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="2"
       aria-label="Slide 3"
-    ></button>
+    ></button> */}
   </div>
-  <div class="carousel-inner relative w-full overflow-hidden">
+  <div className="carousel-inner relative w-full overflow-hidden">
       {/* TO DO: .map doesn't work research this on how to do iterate array */}
-    <div class="carousel-item active relative float-left w-full">
+    <div className="carousel-item active relative float-left w-full">
       <img
         src={WebsiteProjects[0].screenshot}
-        class="block w-full"
+        className="projectImage block w-full"
         alt="Streamin Screenshot"
       />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">{WebsiteProjects[0].name}</h5>
-        <p>{WebsiteProjects[0].summary}</p>
-        <ul>Skills:
-          {WebsiteProjects[0].skills.map(skill => <li>{skill}</li>)}
-        </ul>
+      <div className="projectSummary carousel-caption hidden md:block absolute text-center">
+        <h5 className="projectName text-xl">{WebsiteProjects[0].name}</h5>
+        <div className="projectDescription">
+          <div>
+            <p>{WebsiteProjects[0].summary}</p>
+            Skills:
+            <ul class="skillsList">
+              {WebsiteProjects[0].skills.map(skill => <li className="projectSkills">{skill}</li>)}
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
-    <div class="carousel-item relative float-left w-full">
+    <div className="carousel-item relative float-left w-full">
       <img
         src={WebsiteProjects[1].screenshot}
-        class="block w-full"
+        className="projectImage block w-full"
         alt="Streamin Screenshot"
       />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">{WebsiteProjects[1].name}</h5>
-        <p>{WebsiteProjects[1].summary}</p>
-        <ul>Skills:
-          {WebsiteProjects[1].skills.map(skill => <li>{skill}</li>)}
-        </ul>
+      <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
+        <h5 className=" projectName text-xl">{WebsiteProjects[1].name}</h5>
+        <div className="projectDescription">
+          <p>{WebsiteProjects[1].summary}</p>
+          Skills:
+          <ul class="skillsList">
+            {WebsiteProjects[1].skills.map(skill => <li className="projectSkills">{skill}</li>)}
+          </ul>
+        </div>
+
       </div>
     </div>
-    <div class="carousel-item relative float-left w-full">
+    {/* <div className="carousel-item relative float-left w-full">
       <img
         src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-        class="block w-full"
+        className="block w-full"
         alt="..."
       />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">Third slide label</h5>
+      <div className="carousel-caption hidden md:block absolute text-center">
+        <h5 className="text-xl">Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
-    </div>
+    </div> */}
   </div>
   <button
-    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
     type="button"
     data-bs-target="#carouselExampleCaptions"
     data-bs-slide="prev"
   >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
   <button
-    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
     type="button"
     data-bs-target="#carouselExampleCaptions"
     data-bs-slide="next"
   >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+    <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
     </section> 
