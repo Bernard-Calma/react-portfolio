@@ -10,8 +10,8 @@ const Main = () => {
             <Headers />
             <About />
             <Experience />
-            <Contacts />
             <Projects />
+            <Contacts />
         </main>
     )
 }

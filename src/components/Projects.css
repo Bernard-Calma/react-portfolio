@@ -1,6 +1,6 @@
 #sectionWork {
-    background-color: #0A2647;
-    color: #2C74B3;
+    background-color: #2C74B3;
+    color: #0A2647;
     text-align: center;
     padding-top: 2%;
 }
@@ -20,7 +20,7 @@
 }
 
 .projectSummary {
-    color: #2C74B3;
+    color: #0A2647;
     font-family: "Space Mono", sans-serif;
     font-size: 2rem;
     top: 0;
@@ -32,18 +32,18 @@
     position: absolute;
     padding: 60% 5% 0;
     font-size: 1.5rem;
-    color: #2C74B3;
+    color: #0A2647;
 }
 
 .projectSkills {
-    color: #2C74B3;
+    color: #0A2647;
     display: inline;
     margin: 0 15px;
     text-decoration:underline;
 }
 
 .websiteLink {
-    color: #2C74B3 !important;
+    color: #0A2647 !important;
 }
 
 /* MOBILE VERSION */
