@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="education">
 
             <div className = "asu school">
-                    <a href="https://engineering.asu.edu/" target="_blank"><img className = "schoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
+                    <a href="https://engineering.asu.edu/" target="_blank"><img className = "asuSchoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName"> Arizona State University</h3>
                         <h4 className="course">Software Engineering (BS)</h4>
