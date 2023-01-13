@@ -11,7 +11,6 @@ const Contacts = () => {
                     <li class = "socialMediaItem"><a href="https://github.com/Bernard-Calma" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                     <li class = "socialMediaItem"><a href="https://twitter.com/ryznrd" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
-                <h2>Contact Information</h2>
                 <ul class="contactInformation">
                     <li>Location: Lancaster, CA</li>
                     <li>Email: <a class="mailTo" href="mailto:nard.calma@gmail.com">nard.calma@gmail.com</a></li>
