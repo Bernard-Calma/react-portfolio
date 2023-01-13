@@ -42,7 +42,7 @@ const Projects = () => {
                 alt="Streamin Screenshot"
               />
               <div className="projectSummary carousel-caption hidden md:block absolute text-center">
-                <h5 className="projectName text-xl">{WebsiteProjects[0].name}</h5>
+                <a class="websiteLink" href={WebsiteProjects[0].websiteLink} target="_blank"><h5 className="projectName text-xl">{WebsiteProjects[0].name}</h5></a>
                 <div className="projectDescription">
                   <div>
                     <p>{WebsiteProjects[0].summary}</p>
@@ -64,7 +64,7 @@ const Projects = () => {
                   alt="Streamin Screenshot"
                 />
                 <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
-                  <h5 className=" projectName text-xl">{project.name}</h5>
+                <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="projectName text-xl">{project.name}</h5></a>
                   <div className="projectDescription">
                     <p>{project.summary}</p>
                     Skills:
