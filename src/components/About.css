@@ -3,10 +3,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Mono&family=Ubuntu&display=swap');
 
 
-.aboutMe {
+.sectionAboutMe {
     padding: 100px 10px 50px;
     background-color: #2C74B3;
     color: #0A2647;
+    display: flex;
 }
 
 .aboutMeName {
@@ -24,5 +25,15 @@
 .introduction {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    font-family: "Space Mono", sans-serif;
+    font-size: 1rem;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.personalImage {
+    margin: auto;
+    width: 500px;
+    border-radius: 100% ;
+    margin-top: 50px;
 }

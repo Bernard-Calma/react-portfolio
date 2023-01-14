@@ -4,10 +4,13 @@
 
 const About = () => {
     return(
-        <section className="aboutMe" id="aboutMe">
-            <h1 class = "aboutMeName">Hi! I'm Bernard Calma</h1>
-            <h3 class = "aboutMeOccupation">I'm a Software Engineer</h3>
-            <p className="introduction">Highly motivated technology professional with more than 10 years of experience in tech and more than 1 year of experience with Full-Stack Development. Experience completing hardware and software troubleshooting, analysis and resolution procedures. Skilled in Six Sigma, Cloud Computing, Automation and Independent/Team Project Management.</p>
+        <section className="sectionAboutMe row" id="aboutMe">
+            <div className="aboutMe col-lg-6">
+                <h1 className = "aboutMeName">Hi! I'm Bernard Calma</h1>
+                <h3 className = "aboutMeOccupation">I'm a Software Engineer</h3>
+                <p className="introduction">Highly motivated technology professional with more than 10 years of experience in tech and more than 1 year of experience with Full-Stack Development. Experience completing hardware and software troubleshooting, analysis and resolution procedures. Skilled in Six Sigma, Cloud Computing, Automation and Independent/Team Project Management.</p>
+            </div>
+            <img className="personalImage col-lg-6" src="images/Picture.jpg" alt="Personal Image" />
         </section>
     )
 }
