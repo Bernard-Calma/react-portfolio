@@ -15,6 +15,7 @@ hr {
     background-color: #0A2647;
     color: #2C74B3;
     padding-top: 5%;
+    box-shadow: inset 50px 0 100px 0 #0d1eb9 ;
 }
 
 .experienceTitle {
