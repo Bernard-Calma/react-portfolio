@@ -3,9 +3,9 @@ import "./Contacts.css"
 const Contacts = () => {
     return (
         <section class = "contacts title" id="sectionContacts">
-            <h1>Contacts</h1>
+            <h2 className="sectionTitle">Contacts</h2>
             <div>
-                <h2>Social Media</h2>
+                <h3 className="sectionSubTitle">Social Media</h3>
                 <ul class="socialMedia">
                     <li class = "socialMediaItem"><a href="https://www.linkedin.com/in/bernard-calma/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                     <li class = "socialMediaItem"><a href="https://github.com/Bernard-Calma" target="_blank"><i class="fa-brands fa-github"></i></a></li>

@@ -12,6 +12,17 @@ html {
   pointer-events: none;
 }
 
+.sectionTitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.sectionSubTitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

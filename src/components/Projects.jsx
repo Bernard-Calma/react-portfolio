@@ -4,6 +4,7 @@ import WebsiteProjects from "../projects/WebsiteProjects"
 const Projects = () => {
     return(
       <section class = "work title" id="sectionWork">
+        <h2 className="sectionTitle">Projects</h2>
         <div id="carouselExampleCaptions" className="carousel slide relative" >
           <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
             <button
@@ -42,7 +43,7 @@ const Projects = () => {
                 alt="Streamin Screenshot"
               />
               <div className="projectSummary carousel-caption hidden md:block absolute text-center">
-                <a class="websiteLink" href={WebsiteProjects[0].websiteLink} target="_blank"><h5 className="projectName text-xl">{WebsiteProjects[0].name}</h5></a>
+                <a class="websiteLink" href={WebsiteProjects[0].websiteLink} target="_blank"><h5 className=" text-xl sectionSubTitle">{WebsiteProjects[0].name}</h5></a>
                 <div className="projectDescription">
                   <div>
                     <p>{WebsiteProjects[0].summary}</p>
@@ -64,7 +65,7 @@ const Projects = () => {
                   alt="Streamin Screenshot"
                 />
                 <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
-                <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="projectName text-xl">{project.name}</h5></a>
+                <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="sectionSubTitle text-xl">{project.name}</h5></a>
                   <div className="projectDescription">
                     <p>{project.summary}</p>
                     Skills:
