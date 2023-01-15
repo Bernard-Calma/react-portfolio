@@ -4,11 +4,12 @@
 
 
 .sectionAboutMe {
-    padding: 100px 10px 50px;
+    padding: 200px 10px 50px;
     background-color: #2C74B3;
     color: #0A2647;
     display: flex;
     box-shadow: inset 100px 0 100px 0 #25ceec ;
+    height: 1000px;
 }
 
 .aboutMeName {
@@ -37,4 +38,16 @@
     width: 500px;
     border-radius: 100% ;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .sectionAboutMe {
+        height: 1500px;
+        padding: 100px 0;
+    }
+    .introduction {
+        padding: 0;
+    }
+
+    
 }
