@@ -9,7 +9,14 @@ const NavBar = () => {
         setTimeout(() => {
             document.querySelector("#sectionExperience").children[2].classList.remove("transitionRight")
         }, 3000);
-        
+    }
+
+    const aboutMeFade = () => {
+        document.querySelector(".sectionAboutMe").classList.add("fadeOut")
+        // console.log("About Me", document.querySelector(".aboutMe"))
+        setTimeout(() => {
+            document.querySelector(".sectionAboutMe").classList.remove("fadeOut")
+        }, 1000);
     }
     return (
         <Navbar bg="light" expand="md">
@@ -25,7 +32,7 @@ const NavBar = () => {
                 <Navbar.Toggle/>
                 <Navbar.Collapse id="navbar">
                     <Nav className="navigation">
-                        <Nav.Link href="#aboutMe">About</Nav.Link>
+                        <Nav.Link href="#aboutMe" onClick={aboutMeFade}>About</Nav.Link>
                         <Nav.Link href="#sectionExperience" onClick={addTransitionLeft} >Experience</Nav.Link>
                         <Nav.Link href="#sectionWork">Projects</Nav.Link>
                         <Nav.Link href="#sectionContacts">Contact</Nav.Link>

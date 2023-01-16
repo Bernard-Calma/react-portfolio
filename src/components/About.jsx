@@ -4,10 +4,10 @@
 
 const About = () => {
     const fadeOut = (event) => {
-        event.target.previousSibling.classList.add("fadeOut")
-        console.log("FadeOut", event.target.previousSibling)
+        event.target.parentElement.classList.add("fadeOut")
+        // console.log("FadeOut", event.target.previousSibling)
         setTimeout(() => {
-            event.target.previousSibling.classList.remove("fadeOut")
+            event.target.parentElement.classList.remove("fadeOut")
         }, 1000);
     }
     return(
