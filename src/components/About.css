@@ -16,6 +16,7 @@
     font-family: "Russo One", sans-serif;
     text-align: Center;
     font-size: 6rem;
+
 }
 
 .aboutMeOccupation {
@@ -50,4 +51,20 @@
     }
 
     
+}
+
+
+.fadeOut {
+    animation: fadeOut 1s ease-in
+}
+
+/* TRANSITIONS */
+
+@keyframes fadeOut {
+    from {opacity: 0}
+    to { opacity: 100%;}
+}
+
+@keyframes slideIn {
+    100% { transform: translateX(0%); }
 }

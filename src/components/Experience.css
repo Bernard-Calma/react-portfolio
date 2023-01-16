@@ -135,3 +135,17 @@ hr {
         padding-top: 20%;
     }
 }
+
+.transitionRight {
+    animation: transitionRight 3s;
+}
+
+/* TRANSITIONS */
+@keyframes transitionRight {
+    from {
+        width: 0;
+    }
+    to {
+        width: 99%;
+    }
+}

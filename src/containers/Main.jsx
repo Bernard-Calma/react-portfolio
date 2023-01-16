@@ -4,6 +4,7 @@ import Experience from "../components/Experience"
 import Projects from "../components/Projects"
 import Footer from "./Footer"
 
+
 const Main = () => {
     return (
         <main>
@@ -12,6 +13,7 @@ const Main = () => {
             <Projects />
             <Contacts />
             <Footer />
+            <script src="../scripts/animation.js" type="text/javascript"></script>
         </main>
     )
 }
