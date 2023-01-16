@@ -3,8 +3,15 @@
     import "./About.css"
 
 const About = () => {
+    const fadeOut = (event) => {
+        event.target.previousSibling.classList.add("fadeOut")
+        console.log("FadeOut", event.target.previousSibling)
+        setTimeout(() => {
+            event.target.previousSibling.classList.remove("fadeOut")
+        }, 1000);
+    }
     return(
-        <section className="sectionAboutMe row" id="aboutMe">
+        <section className="sectionAboutMe row" id="aboutMe" onLoad={event => fadeOut(event)}>
             <div className="aboutMe col-lg-6">
                 <h1 className = "aboutMeName">Hi! I'm Bernard Calma</h1>
                 <h3 className = "aboutMeOccupation">I'm a Software Engineer</h3>

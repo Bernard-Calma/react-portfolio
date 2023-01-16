@@ -5,7 +5,7 @@ const NavBar = () => {
     // ADD ANIMATION CLASS
     const addTransitionLeft = () => {
         document.querySelector("#sectionExperience").children[2].classList.add("transitionRight")
-        console.log("Transition", document.querySelector("#sectionExperience"))
+        // console.log("Transition", document.querySelector("#sectionExperience"))
         setTimeout(() => {
             document.querySelector("#sectionExperience").children[2].classList.remove("transitionRight")
         }, 3000);
