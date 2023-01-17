@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="education">
 
             <div className = "asu school">
-                    <a href="https://engineering.asu.edu/" target="_blank"><img className = "asuSchoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
+                    <a href="https://engineering.asu.edu/" target="_blank"  rel="noreferrer"><img className = "asuSchoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName"> Arizona State University</h3>
                         <h4 className="course">Software Engineering (BS)</h4>
@@ -37,7 +37,7 @@ const Experience = () => {
 
             <div className = "generalAssembly school">
                 <div className="schoolTitle">
-                    <a href="https://generalassemb.ly/" target="_blank"><img className = "gaSchoolLogo" src="images/education/GA.png" alt="gaLogo"/></a>
+                    <a href="https://generalassemb.ly/" target="_blank"  rel="noreferrer"><img className = "gaSchoolLogo" src="images/education/GA.png" alt="gaLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName gaSchoolName"> General Assembly </h3>
                         <h4 className="course">Software Engineering Immersive (Certificate)</h4>
@@ -58,7 +58,7 @@ const Experience = () => {
             <hr/>
 
             <div className = "sti school">
-                    <a href="https://www.sti.edu/" target="_blank"><img className = "schoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
+                    <a href="https://www.sti.edu/" target="_blank"  rel="noreferrer"><img className = "schoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
                     <div className="schoolDescription">
                         <h3 className="schoolName">STI College Bacoor</h3>
                         <h4 className="course">Computer Technology (AS)</h4>
