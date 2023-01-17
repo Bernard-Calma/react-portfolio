@@ -1,6 +1,7 @@
 import "./Projects.css"
 import WebsiteProjects from "../projects/WebsiteProjects"
 import { useState } from "react"
+import Project from "../components/Project"
 
 const Projects = () => {
     const [projects, setProjects] = useState(WebsiteProjects)
@@ -59,25 +60,12 @@ const Projects = () => {
               </div>
             </div>
             <>
-            {projects.slice(1).map((project, index) => <>
-                <div className="carousel-item relative float-left w-full" key={index}>
-                <img
-                  src={project.screenshot}
-                  className="projectImage block w-full"
-                  alt="Streamin Screenshot"
-                />
-                <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
-                <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="sectionSubTitle text-xl">{project.name}</h5></a>
-                  <div className="projectDescription">
-                    <p>{project.summary}</p>
-                    Skills:
-                    <ul class="skillsList">
-                      {project.skills.map((skill, index) => <li className="projectSkills" key={index}>{skill}</li>)}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-                  </>)}
+            {projects.slice(1).map((project, index) => 
+              <Project 
+                key={index}
+                project = {project}
+              />
+            )}
             </>
           </div>
         <button
