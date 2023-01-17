@@ -3,7 +3,7 @@ import { useState } from "react";
 const Project = (props) => {
     const [project, setProject] = useState(props.project)
     return(
-        <div className="carousel-item relative float-left w-full">
+        <div className={props.index === 0? "carousel-item active relative float-left w-full" : "carousel-item relative float-left w-full"}>
         <img
             src={project.screenshot}
             className="projectImage block w-full"
