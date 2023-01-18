@@ -29,4 +29,4 @@ const WebsiteProjects = [{
 
 console.log(WebsiteProjects)
 
-export default WebsiteProjects
+module.exports = WebsiteProjects

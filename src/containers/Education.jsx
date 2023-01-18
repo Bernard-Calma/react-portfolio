@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Schools from "../models/Schools"
+import Schools from "../modules/Schools"
 
 const Education = () => {
     const [schools, setSchools] = useState(Schools)

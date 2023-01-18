@@ -1,5 +1,5 @@
 import "./Projects.css"
-import WebsiteProjects from "../models/WebsiteProjects"
+import WebsiteProjects from "../modules/WebsiteProjects"
 import { useState } from "react"
 import Project from "../components/Project"
 
