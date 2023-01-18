@@ -1,12 +1,21 @@
+import { useState } from "react"
+
 const School = (props) => {
+    const [school, setSchool] = useState(props.school)
     return(
         <div className = "asu school">
-        <a href="https://engineering.asu.edu/" target="_blank"  rel="noreferrer"><img className = "asuSchoolLogo" src="images/education/ASU.png" alt="asuLogo"/></a>
+        <a href={school.schoolWebsite} target="_blank" rel="noreferrer">
+            <img 
+                className = {props.index === 0? "asuSchoolLogo": ""}
+                src={school.image} 
+                alt="asuLogo"
+            />
+        </a>
         <div className="schoolDescription">
-            <h3 className="schoolName"> Arizona State University</h3>
-            <h4 className="course">Software Engineering (BS)</h4>
-            <p className = "yearGraduated">(Expected Graduation: 2026)</p>
-            <p className = "courseDescription">- Software systems are complex, often including in excess of a million lines of code. Graduates of the BS in software engineering possess knowledge and skills of a defined engineering approach to complex systems analysis, planning, design and construction. The program has a unique, project-driven curriculum, establishing a new model of communication, teamwork, critical thinking and professionalism.</p>
+            <h3 className="schoolName">{school.name}</h3>
+            <h4 className="course">{`${school.course}(${school.degree})`}</h4>
+            <p className = "yearGraduated">{school.yearGraduate}</p>
+            <p className = "courseDescription">{school.description}</p>
             <div className = 'educationProjects'>
                 <h4 className="technologiesTitle">Technologies</h4>
                 <div className="technologies">
