@@ -58,35 +58,6 @@ hr {
     padding: 0 3%;
 }
 
-.technologiesTitle {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.technologies{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.technologyContainer {
-    margin: 0 20px;
-}
-
-.logo {
-    width: 40%;
-    margin: auto;
-}
-
-.dataStructureLogo {
-    width: 100%;
-}
-
-.technologyTitles {
-    padding: 2% 3%;
-}
-
 /* GENERAL ASSEMBLY AND STI */
 .educationProjects {
     color: #2C74B3;

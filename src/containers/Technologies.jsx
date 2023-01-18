@@ -6,11 +6,15 @@ const Technologies = (props) => {
     return(
         <div>
             <h4 className="technologiesTitle">Technologies</h4>
-            {technologies.map(technology => 
-                <Technology 
-                    technology = {technology}
-                />
-            )}
+            <div className="technologies">
+                {technologies.map((technology, index) => 
+                    <Technology 
+                        technology = {technology}
+                        index = {index}
+                        key = {index}
+                    />
+                )}
+            </div>
         </div>
     )
 }
