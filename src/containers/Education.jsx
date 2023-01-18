@@ -6,7 +6,13 @@ const Education = () => {
     const [schools, setSchools] = useState(Schools)
     return(
         <div className="education">
-            <School />
+            {schools.map((school, index) => 
+                <School 
+                    school = {school}
+                    index = {index}
+                    key = {index}   
+                />
+            )}
             <hr/>
             <div className = "generalAssembly school">
                 <div className="schoolTitle">
