@@ -1,4 +1,8 @@
+import { useState } from "react"
+import Schools from "../models/Schools"
+
 const Education = () => {
+    const [schools, setSchools] = useState(Schools)
     return(
         <div className="education">
             <div className = "asu school">

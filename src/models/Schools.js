@@ -19,3 +19,5 @@ const Schools = [{
     },
     ]
 }]
+
+module.exports = Schools
