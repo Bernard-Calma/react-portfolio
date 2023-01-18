@@ -1,6 +1,6 @@
 import About from "../components/About"
 import Contacts from "../components/Contacts"
-import Experience from "../components/Experience"
+import Experience from "./Experience"
 import Projects from "./Projects"
 import Footer from "./Footer"
 
