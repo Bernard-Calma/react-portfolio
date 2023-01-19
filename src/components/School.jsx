@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Technologies from "../containers/Technologies"
+import EducationProject from "./EducationProject"
 
 const School = (props) => {
     const [school, setSchool] = useState(props.school)
@@ -24,16 +25,9 @@ const School = (props) => {
                     ? <Technologies 
                         technologies = {technologies}
                     />
-                    :
-                    <div className = 'educationProjects'>
-                        <h4 className="course">Projects</h4>
-                        <ul className="educationProjects">
-                            <li className="educationProjects generalAssembly">Streamin (Social Media Platform like)- React, Mongodb, Express, NodeJS, HTML, CSS, Javascript</li>
-                            <li className="educationProjects generalAssembly">Spentrace (Butgeting App) - EJS, MongoDB, Express, NodeJS, HTML, CSS, Javascript</li>
-                            <li className="educationProjects generalAssembly">Floating Shoe Game - JavaScript, HTML Canvas, CSS</li>
-                            <li className="educationProjects generalAssembly">Tamagotchi Game - JavaScript, HTML, CSS</li>
-                        </ul>
-                    </div>
+                    : <EducationProject
+                        projects = {school.projects}
+                    />
                 }
                 
             </div>
