@@ -10,7 +10,7 @@ const Project = (props) => {
             alt="Streamin Screenshot"
         />
         <div className=" projectSummary carousel-caption hidden md:block absolute text-center">
-        <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="sectionSubTitle text-xl">{project.name}</h5></a>
+        <a class="websiteLink" href={project.websiteLink} target="_blank"><h5 className="text-xl projectName">{project.name}</h5></a>
             <div className="projectDescription">
             <p>{project.summary}</p>
             Skills:

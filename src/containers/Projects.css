@@ -2,14 +2,24 @@
     background-color: #2C74B3;
     color: #0A2647;
     text-align: center;
-    padding-top: 2%;
-    box-shadow: inset 100px 0 100px 0 #25ceec ;
+    padding-top: 5%;
+    box-shadow: inset 100px 0 100px 0 #25ceec;
+    height: 1200px;
 }
 
 /* PROJECT CAROUSEL */
+.carousel, .carousel-inner {
+    height: 1200px;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
 .projectName {
     font-family: "Ubuntu", sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .github {
@@ -54,7 +64,7 @@
     }
 
     #sectionWork {
-        height: 850px;
+        height: 1000px;
     }
 
     .carousel, .carousel-inner {
