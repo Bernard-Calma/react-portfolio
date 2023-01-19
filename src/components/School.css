@@ -23,8 +23,15 @@
     display: flex;
 }
 
+.schoolContainerUpperReverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .schoolLogo {
-    width: 100%;
+    max-width: 500px;
+    width: 500px;
+    margin: auto;
 }
 
 .rigthTextAlign {
@@ -33,7 +40,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .schoolContainerUpper {
+    .schoolContainerUpper, .schoolContainerUpperReverse {
         display: inline;
     }
 }
