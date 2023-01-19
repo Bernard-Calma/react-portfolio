@@ -16,11 +16,13 @@ html {
   font-family: "Russo One", sans-serif;
   font-size: 4rem;
   padding: 10px;
+  text-align: center;
 }
 
 .sectionSubTitle {
   font-family: "Ubuntu", sans-serif;
   font-size: 3rem;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

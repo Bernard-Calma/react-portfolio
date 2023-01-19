@@ -1,0 +1,39 @@
+.schoolName {
+    font-family: "Russo One", sans-serif;
+    font-size: 3rem;
+}
+
+.course {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.yearGraduated {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.courseDescription {
+    font-family: "Space Mono", sans-serif;
+    font-size: 1rem;
+}
+
+.schoolContainerUpper {
+    display: flex;
+}
+
+.schoolLogo {
+    width: 100%;
+}
+
+.rigthTextAlign {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .schoolContainerUpper {
+        display: inline;
+    }
+}

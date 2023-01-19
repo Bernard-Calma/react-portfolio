@@ -13,9 +13,6 @@ const Education = () => {
                     key = {index}   
                 />
             )}
-            <hr/>
-            
-            <hr/>
             <div className = "sti school">
                     <a href="https://www.sti.edu/" target="_blank"  rel="noreferrer"><img className = "schoolLogo" src="images/education/STI.png" alt="stiLogo"/></a>
                     <div className="schoolDescription">
@@ -33,7 +30,6 @@ const Education = () => {
                         </div>
                     </div>
             </div> 
-            <hr />
         </div>
     )
 }
