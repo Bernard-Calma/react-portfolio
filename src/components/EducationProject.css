@@ -1,0 +1,13 @@
+.projects {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.educationProjects {
+    color: #2C74B3;
+    padding-left: 0;
+}
+
+.rightTextAlign {
+    text-align: right;
+}
