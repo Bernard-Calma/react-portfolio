@@ -1,5 +1,5 @@
 .school {
-    margin: 10% 2%;
+    padding: 5% 3%;
 }
 
 .schoolName {
@@ -40,6 +40,42 @@
 
 .rigthTextAlign {
     text-align: right;
+}
+
+/* TECHNOLOGIES */
+.technologiesContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.technologiesTitle {
+    font-family: "Russo One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 5% 3%;
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.technologyContainer {
+    margin: 0 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+}
+
+.dataStructureLogo {
+    width: 100%;
+}
+
+.technologyTitles {
+    padding: 2% 3%;
 }
 
 

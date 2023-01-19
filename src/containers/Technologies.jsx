@@ -6,7 +6,7 @@ const Technologies = (props) => {
     return(
         <div>
             <h4 className="technologiesTitle">Technologies</h4>
-            <div className="technologies">
+            <div className="technologiesContainer">
                 {technologies.map((technology, index) => 
                     <Technology 
                         technology = {technology}
