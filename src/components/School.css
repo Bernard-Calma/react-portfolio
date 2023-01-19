@@ -45,7 +45,7 @@
 /* TECHNOLOGIES */
 .technologiesContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .technologiesTitle {
@@ -55,15 +55,22 @@
     margin: 5% 3%;
 }
 
-.technologies{
+.technologyContainer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
+    width: 300px;
 }
 
-.technologyContainer {
-    margin: 0 20px;
+.technologyTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-style: italic;
 }
+
+
 
 .logo {
     width: 150px;

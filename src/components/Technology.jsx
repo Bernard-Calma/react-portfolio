@@ -9,7 +9,7 @@ const Technology = (props) => {
                 src={technology.logo} 
                 alt={technology.title} 
             /> 
-            <p className="technologyTitles">{technology.title}</p>
+            <p className="technologyTitle">{technology.title}</p>
         </div>
     )
 }
