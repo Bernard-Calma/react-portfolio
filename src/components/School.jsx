@@ -19,9 +19,23 @@ const School = (props) => {
             <p className = "yearGraduated">{school.yearGraduate}</p>
             <p className = "courseDescription">{school.description}</p>
             <div className = 'educationProjects'>
-                <Technologies 
-                    technologies = {technologies}
-                />
+                {
+                    props.index === 0
+                    ? <Technologies 
+                        technologies = {technologies}
+                    />
+                    :
+                    <div className = 'educationProjects'>
+                        <h4 className="course">Projects</h4>
+                        <ul className="educationProjects">
+                            <li className="educationProjects generalAssembly">Streamin (Social Media Platform like)- React, Mongodb, Express, NodeJS, HTML, CSS, Javascript</li>
+                            <li className="educationProjects generalAssembly">Spentrace (Butgeting App) - EJS, MongoDB, Express, NodeJS, HTML, CSS, Javascript</li>
+                            <li className="educationProjects generalAssembly">Floating Shoe Game - JavaScript, HTML Canvas, CSS</li>
+                            <li className="educationProjects generalAssembly">Tamagotchi Game - JavaScript, HTML, CSS</li>
+                        </ul>
+                    </div>
+                }
+                
             </div>
         </div>
     </div>      

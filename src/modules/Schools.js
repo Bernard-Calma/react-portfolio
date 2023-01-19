@@ -19,6 +19,21 @@ const Schools = [{
         title: "Data Structures and Algorithm"
     },
     ]
+},
+{
+    name: "General Assembly",
+    course: "Software Engineering",
+    degree: "Certificate",
+    yearGraduate: "(Graduated: 2022)",
+    schoolWebsite: "https://engineering.asu.edu/",
+    description: "- Software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developing a portfolio of individual and group projects.",
+    image: "images/education/GA.png",    
+    projects: [
+        "Streamin (Social Media Platform like)- React, Mongodb, Express, NodeJS, HTML, CSS, Javascript",
+        "Spentrace (Butgeting App) - EJS, MongoDB, Express, NodeJS, HTML, CSS, Javascript",
+        "Floating Shoe Game - JavaScript, HTML Canvas, CSS",
+        "Tamagotchi Game - JavaScript, HTML, CSS"
+    ]
 }]
 
 module.exports = Schools
