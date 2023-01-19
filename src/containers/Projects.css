@@ -20,6 +20,7 @@
     font-family: "Ubuntu", sans-serif;
     font-size: 3rem;
     font-weight: bold;
+    padding: 3% 0;
 }
 
 .github {
@@ -27,22 +28,24 @@
 }
 
 .projectImage {
-    padding: 10% 5% 25%;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
 }
 
 .projectSummary {
     color: #0A2647;
     font-family: "Space Mono", sans-serif;
     font-size: 2rem;
-    top: 0;
-    right: 0;
+    position: relative;
+    margin: auto;
     left: 0;
+    padding: 5% 3%;
 }
 
 .projectDescription {
-    position: absolute;
-    padding: 60% 5% 0;
-    font-size: 1.5rem;
+    position: relative;
+    font-size: 1rem;
     color: #0A2647;
 }
 
@@ -57,12 +60,12 @@
     color: #0A2647 !important;
 }
 
+.skillsList {
+    padding: 5% 3%;
+}
+
 /* MOBILE VERSION */
 @media only screen and (max-width: 600px) {
-    .projectSummary{
-        all: unset;
-    }
-
     #sectionWork {
         height: 1000px;
     }
@@ -72,25 +75,19 @@
     }
 
     .projectImage{
-        margin: 30px 0;
-        padding: 2% 2%;
-        position: absolute;
+        padding: 5% 3%;
         height: 400px;
     }
 
-    .projectName {
-        font-size: 2rem;
-    }
-
-    .projectDescription {
+    .carousel-item {
         margin: 0;
-        padding: 100% 0;
-        width: 100%;
+        padding: 5% 3%;
     }
 
-    .projectDescription > div > p {
-        width: 350px;
-        font-size: 1rem;
-        margin: auto;
+    .skillsList {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
+
+
