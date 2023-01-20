@@ -12,6 +12,11 @@
     height: 1000px;
 }
 
+.aboutme {
+    flex-grow: 1;
+  
+}
+
 .aboutMeName {
     font-family: "Russo One", sans-serif;
     text-align: Center;
@@ -36,9 +41,10 @@
 
 .personalImage {
     margin: auto;
-    width: 500px;
+    max-width: 600px;
     border-radius: 100% ;
     margin-top: 50px;
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 1000px) {
@@ -50,7 +56,9 @@
         padding: 0;
     }
 
-    
+    .personalImage {
+        max-width: 600px;
+    }
 }
 
 
