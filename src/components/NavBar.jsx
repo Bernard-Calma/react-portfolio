@@ -19,7 +19,7 @@ const NavBar = () => {
         }, 1000);
     }
     return (
-        <Navbar bg="light" expand="md">
+        <Navbar bg="light" expand="md" >
             <Container>
                 <Navbar.Brand>
                     <img 
