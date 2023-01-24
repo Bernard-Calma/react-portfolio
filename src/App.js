@@ -9,10 +9,10 @@ import Main from './containers/Main';
 
 function App() {
   return (
-    <>
+    <div className="app">
     <Header />
     <Main />
-    </>
+    </div>
   );
 }
 
