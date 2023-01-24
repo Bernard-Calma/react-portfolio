@@ -4,9 +4,8 @@ import EducationProject from "./EducationProject"
 import "./School.css"
 
 const School = (props) => {
-    const school = useState(props.school)
-    const technologies = useState(school.technologies)
-    console.log("props.index", props.index%2)
+    const [school] = useState(props.school)
+    const [technologies] = useState(school.technologies)
     return(
         <div className = "asu school">
             <div className={props.index%2 === 0? "schoolContainerUpper": "schoolContainerUpperReverse"}>

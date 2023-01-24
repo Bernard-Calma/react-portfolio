@@ -3,7 +3,7 @@ import Project from "../components/Project"
 
 const Projects = (props) => {
     return(
-      <section class = "work title" id="sectionWork">
+      <section className= "work title" id="sectionWork">
         <h2 className="sectionTitle">Projects</h2>
         <div id="carouselExampleCaptions" className="carousel slide relative" >
           <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
