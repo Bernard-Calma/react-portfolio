@@ -5,12 +5,16 @@ import Projects from "./Projects"
 import Footer from "./Footer"
 
 
-const Main = () => {
+const Main = (props) => {
     return (
         <main>
             <About />
-            <Experience />
-            <Projects />
+            <Experience 
+                schools = {props.schools}
+            />
+            <Projects 
+                websiteProjects = {props.websiteProjects}
+            />
             <Contacts />
             <Footer />
             <script src="../scripts/animation.js" type="text/javascript"></script>

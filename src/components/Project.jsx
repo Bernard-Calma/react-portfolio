@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Project = (props) => {
-    const [project] = useState(props.project)
+    const project = useState(props.project)
     return(
         <div className={props.index === 0? "carousel-item active relative float-left w-full" : "carousel-item relative float-left w-full"}>
         <a class="websiteLink" href={project.websiteLink} target="_blank" rel="noreferrer"><h5 className="text-xl projectName">{project.name}</h5></a>
@@ -15,7 +15,7 @@ const Project = (props) => {
             <p>{project.summary}</p>
             Skills:
             <ul class="skillsList">
-                {project.skills.map((skill, index) => <li className="projectSkills" key={index}>{skill}</li>)}
+                {project.skills?.map((skill, index) => <li className="projectSkills" key={index}>{skill}</li>)}
             </ul>
             </div>
         </div>

@@ -1,12 +1,9 @@
-import { useState } from "react"
 import School from "../components/School"
-import Schools from "../modules/Schools"
 
-const Education = () => {
-    const [schools] = useState(Schools)
+const Education = (props) => {
     return(
         <div className="education">
-            {schools.map((school, index) => 
+            {props.schools.map((school, index) => 
                 <School 
                     school = {school}
                     index = {index}

@@ -1,10 +1,7 @@
 import "./Projects.css"
-import WebsiteProjects from "../modules/WebsiteProjects"
-import { useState } from "react"
 import Project from "../components/Project"
 
-const Projects = () => {
-    const [projects] = useState(WebsiteProjects)
+const Projects = (props) => {
     return(
       <section class = "work title" id="sectionWork">
         <h2 className="sectionTitle">Projects</h2>
@@ -38,7 +35,7 @@ const Projects = () => {
             ></button>
           </div>
           <div className="carousel-inner relative w-full overflow-hidden">
-            {projects.map((project, index) => 
+            {props.websiteProjects.map((project, index) => 
               <Project 
                 index = {index}
                 key={index}
