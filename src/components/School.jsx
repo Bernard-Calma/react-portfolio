@@ -4,8 +4,8 @@ import EducationProject from "./EducationProject"
 import "./School.css"
 
 const School = (props) => {
-    const [school, setSchool] = useState(props.school)
-    const [technologies, setTechnologies] = useState(school.technologies)
+    const [school] = useState(props.school)
+    const [technologies] = useState(school.technologies)
     console.log("props.index", props.index%2)
     return(
         <div className = "asu school">

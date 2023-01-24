@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const Technology = (props) => {
-    const [technology, setTechnology] = useState(props.technology)
+    const [technology] = useState(props.technology)
     return(
         <div className="technologyContainer">
             <img 

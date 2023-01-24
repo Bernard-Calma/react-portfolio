@@ -4,7 +4,7 @@ import { useState } from "react"
 import Project from "../components/Project"
 
 const Projects = () => {
-    const [projects, setProjects] = useState(WebsiteProjects)
+    const [projects] = useState(WebsiteProjects)
     return(
       <section class = "work title" id="sectionWork">
         <h2 className="sectionTitle">Projects</h2>
