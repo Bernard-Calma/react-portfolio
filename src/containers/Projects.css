@@ -2,15 +2,11 @@
     background-color: #2C74B3;
     color: #0A2647;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     box-shadow: inset 100px 0 100px 0 #25ceec;
-    height: 1200px;
 }
 
 /* PROJECT CAROUSEL */
-.carousel, .carousel-inner {
-    height: 1200px;
-}
 
 .carousel-inner {
     display: flex;
@@ -20,7 +16,7 @@
     font-family: "Ubuntu", sans-serif;
     font-size: 3rem;
     font-weight: bold;
-    padding: 3% 0;
+    padding: 1% 0;
 }
 
 .github {
@@ -40,12 +36,12 @@
     position: relative;
     margin: auto;
     left: 0;
-    padding: 5% 3%;
+    padding: 3% 20%;
 }
 
 .projectDescription {
     position: relative;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #0A2647;
 }
 
@@ -54,6 +50,7 @@
     display: inline;
     margin: 0 15px;
     text-decoration:underline;
+    font-size: 1.5rem;
 }
 
 .websiteLink {
@@ -61,7 +58,7 @@
 }
 
 .skillsList {
-    padding: 5% 3%;
+    padding: 2% 3%;
 }
 
 /* MOBILE VERSION */
